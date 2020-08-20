@@ -11,6 +11,8 @@ perl deaf2.pl < Eng2.txt | sh | sort -u | sh
 echo nsm2.pl
 perl nsm2.pl < Eng2.txt > index.html
 echo getglyphogram.py
-cat primes.txt | tr ' ' '\0' | xargs -0 python getglyphogram.py
+cat primes.txt | tr ' ' '\0' | tr A-Z a-z | xargs -0 python getglyphogram.py
 echo goddard.py
 cat primesandphrases.txt | tr '\n' '\0' | xargs -0 python goddard.py
+echo present_primes.pl
+ls html_primes/*html | perl present_primes.pl > signwriting.html
