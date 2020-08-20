@@ -1,6 +1,6 @@
 #!/bin/sh
 # rm -r frames mp4s primes videos.txt html_primes html_nsm
-echo mkdr
+echo mkdir
 mkdir -p frames mp4s primes html_primes html_nsm
 echo deaf.pl
 perl deaf.pl < EnglishNSM.txt | sh | sort -u | sh

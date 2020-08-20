@@ -1,9 +1,9 @@
 
-<!DOCTYPE html><!--[if IE 8]> <html lang="en" class="ie8"> <![endif]--><!--[if IE 9]> <html lang="en" class="ie9"> <![endif]--><!--[if !IE]><!--> <html lang="en"> <!--<![endif]--><head>	<base href="https://www.signingsavvy.com/" />	<title>Sign for YOU</title>	<!-- Meta -->	<meta charset="utf-8">	<meta property="description" content="Sign language video of the sign YOU" /><meta property="og:description" content="Sign language video of the sign YOU" />	<meta name="author" content="Signing Savvy, LLC">	<meta name="copyright" content="Signing Savvy, LLC" />	<meta name="keywords" content="sign language, dictionary, american sign language, ASL, baby signs, signing, hearing impaired, deaf, disabilities" />	<meta property="og:site_name" content="Signing Savvy" />	<meta property="og:title" content="Sign for YOU" />	<meta property="og:locale" content="en_US" />	<meta property="og:type" content="website" />	<meta property="og:image" content="https://www.signingsavvy.com/images/signingsavvy-logo.gif"/>		<meta property="fb:app_id" content="153421804744116" />	<meta property="fb:admins" content="508064998" />	<!-- Favicon -->	<link rel="icon" href="favicon.ico">	<link rel="apple-touch-icon" href="images/app-icon.png"/>	<!-- CSS Global Compulsory -->	<link rel="stylesheet" href="assets/css/style.css" as="style">	<!-- CSS Implementing Plugins -->	<link rel="stylesheet" href="assets/plugins/animate.css" as="style">	<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css" as="style">	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css" as="style">	<!-- CSS Customization -->    <link rel="stylesheet" type="text/css" href="skin2.css" as="style" />		<!-- Web Fonts -->	<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" >	<!-- CSS Global Compulsory -->    <link rel="stylesheet" type="text/css" href="magnific-popup/magnific-popup.css">     <link rel="stylesheet" type="text/css" href="js/cupertino/jquery-ui.min.css" >    <link rel='stylesheet' type="text/css" href='js/fullcalendar/fullcalendar.css' />       <link rel="stylesheet" href="node_modules/video.js/dist/video-js.css">    <link rel="stylesheet" href="node_modules/videojs-contrib-ads/dist/videojs.ads.css">    <link rel="stylesheet" href="node_modules/videojs-ima/src/videojs.ima.css">	 <!-- JS Global Compulsory -->	<script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>	<script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script>	<!-- JS Customization -->	<script type="text/javascript" src="assets/js/custom.js"></script>	<script type="text/javascript" src="js/jquery-ui.min.js"></script>    <script type="text/javascript" src="js/jquery.form.js"></script>   	<script type="text/javascript" src="js/moment.min.js"></script>        <script type="text/javascript" src="js/jquery-cookie/jquery.cookie.js"></script>    <script type="text/javascript" src='js/jstz.min.js'></script>    <script type="text/javascript" src="magnific-popup/jquery.magnific-popup.min.js"></script>       <script type="text/javascript" src="ckeditor/ckeditor.js"></script>    <script type="text/javascript" src="flash_detect_min.js"></script>    <script type="text/javascript" src='js/fullcalendar/fullcalendar.js'></script>    <script type="text/javascript" src="node_modules/video.js/dist/video.js"></script>        <script type="text/javascript" src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>    <script type="text/javascript" src="node_modules/videojs-contrib-ads/dist/videojs.ads.js"></script>    <script type="text/javascript" src="node_modules/videojs-ima/src/videojs.ima.js"></script>        <script type="text/javascript" src="js/setupPlayer2.js"></script>    <script type="text/javascript" src="js/tabs.js"></script>		<script type="text/javascript">		$(document).ready(function() {			animatedNumber();			setInterval(function() {				animatedNumber()			},20000);		});		function animatedNumber() {			$('.count').each(function () {		    $(this).prop('Counter',0).animate({		        Counter: $(this).text().replace(/\,/g,'')		    }, {		        duration: 5000,		        easing: 'swing',		        step: function (now) {		            $(this).text(Math.ceil(now).toLocaleString());		        }		    	});			});		}		function populateSearch(str) {			document.getElementById("searchField").value = str;			document.getElementById("searchField").focus();			document.getElementById("searchField").select();		}	 </script>    	<script type="text/javascript">	$(document).ready(function() {		$("body").on("click",".memberOnly",function(e) {		  e.preventDefault();		  var reloadDialog = $("<div>").dialog({				modal: true,				open: function () {					//nothing				},				close: function(event, ui) {						$(this).remove();					},				title: "Member Feature",				buttons: [				{				  text: "Learn More",				  click: function() {					$( this ).dialog( "close" );					window.location = "member";				  }				},				{				  text: "Close",				  click: function() {					$( this ).dialog( "close" );				  }				}			  ]			});			reloadDialog.html("Viewing this content is a member only feature!");		});  });    </script>  	    </head>    	
+<!DOCTYPE html><!--[if IE 8]> <html lang="en" class="ie8"> <![endif]--><!--[if IE 9]> <html lang="en" class="ie9"> <![endif]--><!--[if !IE]><!--> <html lang="en"> <!--<![endif]--><head>	<base href="https://www.signingsavvy.com/" />	<title>Sign for YOU</title>	<!-- Meta -->	<meta charset="utf-8">	<meta property="description" content="Sign language video of the sign YOU" /><meta property="og:description" content="Sign language video of the sign YOU" />	<meta name="author" content="Signing Savvy, LLC">	<meta name="copyright" content="Signing Savvy, LLC" />	<meta name="keywords" content="sign language, dictionary, american sign language, ASL, baby signs, signing, hearing impaired, deaf, disabilities" />	<meta property="og:site_name" content="Signing Savvy" />	<meta property="og:title" content="Sign for YOU" />	<meta property="og:locale" content="en_US" />	<meta property="og:type" content="website" />	<meta property="og:image" content="https://www.signingsavvy.com/images/signingsavvy-logo.gif"/>		<meta property="fb:app_id" content="153421804744116" />	<meta property="fb:admins" content="508064998" />	<!-- Favicon -->	<link rel="icon" href="favicon.ico">	<link rel="apple-touch-icon" href="images/app-icon.png"/>	<!-- CSS Global Compulsory -->	<link rel="stylesheet" href="assets/css/style.css" as="style">	<!-- CSS Implementing Plugins -->	<link rel="stylesheet" href="assets/plugins/animate.css" as="style">	<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css" as="style">	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css" as="style">	<!-- CSS Customization -->    <link rel="stylesheet" type="text/css" href="skin3.css" as="style" />		<!-- Web Fonts -->	<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" >	<!-- CSS Global Compulsory -->    <link rel="stylesheet" type="text/css" href="magnific-popup/magnific-popup.css">     <link rel="stylesheet" type="text/css" href="js/cupertino/jquery-ui.min.css" >    <link rel='stylesheet' type="text/css" href='js/fullcalendar/fullcalendar.css' />       <link rel="stylesheet" href="node_modules/video.js/dist/video-js.css">    <link rel="stylesheet" href="node_modules/videojs-contrib-ads/dist/videojs.ads.css">    <link rel="stylesheet" href="node_modules/videojs-ima/src/videojs.ima.css">	 <!-- JS Global Compulsory -->	<script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>	<script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script>	<!-- JS Customization -->	<script type="text/javascript" src="assets/js/custom.js"></script>	<script type="text/javascript" src="js/jquery-ui.min.js"></script>    <script type="text/javascript" src="js/jquery.form.js"></script>   	<script type="text/javascript" src="js/moment.min.js"></script>        <script type="text/javascript" src="js/jquery-cookie/jquery.cookie.js"></script>    <script type="text/javascript" src='js/jstz.min.js'></script>    <script type="text/javascript" src="magnific-popup/jquery.magnific-popup.min.js"></script>       <script type="text/javascript" src="ckeditor/ckeditor.js"></script>    <script type="text/javascript" src="flash_detect_min.js"></script>    <script type="text/javascript" src='js/fullcalendar/fullcalendar.js'></script>    <script type="text/javascript" src="node_modules/video.js/dist/video.js"></script>        <script type="text/javascript" src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>    <script type="text/javascript" src="node_modules/videojs-contrib-ads/dist/videojs.ads.js"></script>    <script type="text/javascript" src="node_modules/videojs-ima/src/videojs.ima.js"></script>        <script type="text/javascript" src="js/setupPlayer3.js"></script>    <script type="text/javascript" src="js/tabs.js"></script>		<script type="text/javascript">		$(document).ready(function() {			animatedNumber();			setInterval(function() {				animatedNumber()			},20000);		});		function animatedNumber() {			$('.count').each(function () {		    $(this).prop('Counter',0).animate({		        Counter: $(this).text().replace(/\,/g,'')		    }, {		        duration: 5000,		        easing: 'swing',		        step: function (now) {		            $(this).text(Math.ceil(now).toLocaleString());		        }		    	});			});		}		function populateSearch(str) {			document.getElementById("searchField").value = str;			document.getElementById("searchField").focus();			document.getElementById("searchField").select();		}	 </script>    	<script type="text/javascript">	$(document).ready(function() {		$("body").on("click",".memberOnly",function(e) {		  e.preventDefault();		  var reloadDialog = $("<div>").dialog({				modal: true,				open: function () {					//nothing				},				close: function(event, ui) {						$(this).remove();					},				title: "Member Feature",				buttons: [				{				  text: "Learn More",				  click: function() {					$( this ).dialog( "close" );					window.location = "member";				  }				},				{				  text: "Close",				  click: function() {					$( this ).dialog( "close" );				  }				}			  ]			});			reloadDialog.html("Viewing this content is a member only feature!");		});  });    </script>  	    </head>    	
     <body id="page_signs" class="bg">
         <div id="frame">
             
-            	<!--START Google Analytics Tracking ga.js Code-->	<script type="text/javascript">		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');	  ga('create', 'UA-6883744-1', 'auto');	  ga('send', 'pageview');	</script>		<!-- Header, Navigation -->	<div id="header">		<div id="header_inner">			<a href="https://www.signingsavvy.com/"><h1 id="header_logo" class="hide">Signing Savvy, Your Sign Language Resource</h1></a>										<div id="header_login">					<form id="sitelogin" name="login" method="post" action="https://www.signingsavvy.com/sign/YOU" autocomplete="on" >					<table>						<tr><td>					<div class="header_tb_wrapper">						<input type="text" placeholder="Email (username)" tabindex="2" maxlength="50" name="username" id="realuser" class="real" autocorrect="off" autocapitalize="off" autocomplete="off">					</div><!-- END header_tb_wrapper --> 				</td><td>					<div class="header_tb_wrapper">						<input type="password" tabindex="3" maxlength="24" name="password" placeholder="Password" autocorrect="off" autocapitalize="off" autocomplete="off" id="realpass" class="real">					</div><!-- END header_tb_wrapper --> 				</td><td>					<input type="hidden" name="login" value="1" />					<input type="checkbox" name="remember" value="1" title="Remember me on this computer." checked />				</td><td>					<input type="submit" value="" />				</td></tr>				<tr><td>					<a href="https://www.signingsavvy.com/member">New User?</a>					</td><td>						<a href="https://www.signingsavvy.com/resetpassword">forgot password?</a>					</td><td>					</td><td>						<a href="https://www.signingsavvy.com/member"><img src="https://www.signingsavvy.com/images/button_membership_green.png" alt="Membership" /></a>					</td></tr>				</table>									</div><!-- END header_login --> 										<!-- MAIN NAVIGATION TABS --> 			<ul id="header_nav">				<li><a href="https://www.signingsavvy.com/search" class="hide" id="signs">Signs</a></li>				<li><a href="https://www.signingsavvy.com/fingerspelling" class="hide" id="fingerspelling">Fingerspelling</a></li>				<li><a href="https://www.signingsavvy.com/numbers" class="hide" id="numbers">Numbers</a></li>				<li><a href="https://www.signingsavvy.com/sentences" class="hide" id="sentences">Sentences</a></li>				<li><a href="https://www.signingsavvy.com/wordlists" class="hide" id="wlists">Lists</a></li>				<li><a href="https://www.signingsavvy.com/learning" class="hide" id="learning">Learning</a></li>				<li><a href="https://www.signingsavvy.com/asloneonone" class="hide" id="tutoring">Tutoring</a></li>				<li><a href="https://www.signingsavvy.com/" class="hide" id="blog">Blog</a></li>			</ul>		</div><!-- END header_inner --> 	</div><!-- END header --> 		<!-- Search -->	<div id="search">		<div id="search_inner">			<div id="search_content">				<div id="search_left">					<form name="searchsigns" method="post" action="search">					<div id="search_left_top">						<h2>Search Sign Language Dictionary</h2>						<div class="search_tb_wrapper">							<input type="text" name="search" id="searchField" tabindex="1" placeholder="type a word or phrase" value="YOU" onClick="this.focus();this.select();" accesskey="s" autofocus />						</div><!-- END search_tb_wrapper --> 						<input name="find" type="hidden" value="1" />						<input type="submit" value="" onClick="if (searchsigns.search.value=='type a word or phrase') {return false;}" />					</div><!-- END search_left_top --> 					</form>					<div id="search_left_bottom">						<!--Enter a word or phrase above and then click "Find Signs" to see how it is signed.-->					</div><!-- END search_left_bottom --> 				</div><!-- END search_left --> 				<div id="search_right">					<div id="search_right_top">						<h2>Browse Signs by...</h2>						<ul>							<li><a href="https://www.signingsavvy.com/search">Browse by Letter</a></li>							<li><a href="https://www.signingsavvy.com/fingerspelling">Fingerspelling</a></li>							<li><a href="https://www.signingsavvy.com/numbers">Numbers</a></li>							<li><a href="https://www.signingsavvy.com/wordlist/colors">Colors</a></li>						</ul>						<ul>							<li><a href="https://www.signingsavvy.com/wordlist/family">Family</a></li>							<li><a href="https://www.signingsavvy.com/wordlist/animals">Animals</a></li>							<li><a href="https://www.signingsavvy.com/wordlist/holidays">Holidays</a></li>							<li><a href="https://www.signingsavvy.com/wordlist/babysigns">Baby Signs</a></li>												</ul>						<div class="clear"></div>					</div><!-- END search_right_top --> 					<div id="search_right_bottom">						<!-- MAIN NAVIGATION TABS --> 						<ul id="list_nav">							<li ><a href="https://www.signingsavvy.com/wordlist/savvy" class="hide" id="list-savvy">Signs</a></li>							<li ><a href="https://www.signingsavvy.com/wordlist/my" class="hide" id="list-my">Fingerspelling</a></li>							<li ><a href="https://www.signingsavvy.com/wordlist/shared" class="hide" id="list-shared">Numbers</a></li>						</ul>						<!--<a href="wordlist/shared"><img src="images/shared_btn.png" alt="Shared Lists" /></a>						<a href="wordlist/my"><img src="images/my_btn.png" alt="My Lists" /></a>						<a href="member"><img src="images/membership_btn.png" alt="Membership" /></a>-->					</div><!-- END search_right_bottom --> 				</div><!-- END search_right --> 				<div class="clear"></div>			</div><!-- END search_content --> 		</div><!-- END search_inner --> 	</div><!-- END search --> 		<script type="text/javascript">	  	document.getElementById("searchField").focus();		document.getElementById("searchField").select();	</script>		            
+            	<!--START Google Analytics Tracking ga.js Code-->	<script type="text/javascript">		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');	  ga('create', 'UA-6883744-1', 'auto');	  ga('send', 'pageview');	</script>		<!-- Header, Navigation -->	<div id="header">		<div id="header_inner">			<a href="https://www.signingsavvy.com/"><h1 id="header_logo" class="hide">Signing Savvy, Your Sign Language Resource</h1></a>										<div id="header_login">					<form id="sitelogin" name="login" method="post" action="https://www.signingsavvy.com/sign/YOU" autocomplete="on" >					<table>						<tr><td>					<div class="header_tb_wrapper">						<input type="text" placeholder="Email (username)" tabindex="2" maxlength="50" name="username" id="realuser" class="real" autocorrect="off" autocapitalize="off" autocomplete="off">					</div><!-- END header_tb_wrapper --> 				</td><td>					<div class="header_tb_wrapper">						<input type="password" tabindex="3" maxlength="24" name="password" placeholder="Password" autocorrect="off" autocapitalize="off" autocomplete="off" id="realpass" class="real">					</div><!-- END header_tb_wrapper --> 				</td><td>					<input type="hidden" name="login" value="1" />					<input type="checkbox" name="remember" value="1" title="Remember me on this computer." checked />				</td><td>					<input type="submit" value="" />				</td></tr>				<tr><td>					<a href="https://www.signingsavvy.com/member">New User?</a>					</td><td>						<a href="https://www.signingsavvy.com/resetpassword">forgot password?</a>					</td><td>					</td><td>						<a href="https://www.signingsavvy.com/member"><img src="https://www.signingsavvy.com/images/button_membership_green.png" alt="Membership" /></a>					</td></tr>				</table>									</div><!-- END header_login --> 										<!-- MAIN NAVIGATION TABS --> 			<ul id="header_nav">				<li><a href="https://www.signingsavvy.com/search" class="hide" id="signs">Signs</a></li>				<li><a href="https://www.signingsavvy.com/fingerspelling" class="hide" id="fingerspelling">Fingerspelling</a></li>				<li><a href="https://www.signingsavvy.com/numbers" class="hide" id="numbers">Numbers</a></li>				<li><a href="https://www.signingsavvy.com/sentences" class="hide" id="sentences">Sentences</a></li>				<li><a href="https://www.signingsavvy.com/wordlists" class="hide" id="wlists">Lists</a></li>				<li><a href="https://www.signingsavvy.com/learning" class="hide" id="learning">Learning</a></li>				<li><a href="https://www.signingsavvy.com/asloneonone" class="hide" id="tutoring">Tutoring</a></li>				<li><a href="https://www.signingsavvy.com/" class="hide" id="article">Articles</a></li>			</ul>		</div><!-- END header_inner --> 	</div><!-- END header --> 		<!-- Search -->	<div id="search">		<div id="search_inner">			<div id="search_content">				<div id="search_left">					<form name="searchsigns" method="post" action="search">					<div id="search_left_top">						<h2>Search Sign Language Dictionary</h2>						<div class="search_tb_wrapper">							<input type="text" name="search" id="searchField" tabindex="1" placeholder="type a word or phrase" value="YOU" onClick="this.focus();this.select();" accesskey="s" autofocus />						</div><!-- END search_tb_wrapper --> 						<input name="find" type="hidden" value="1" />						<input type="submit" value="" onClick="if (searchsigns.search.value=='type a word or phrase') {return false;}" />					</div><!-- END search_left_top --> 					</form>					<div id="search_left_bottom">						<!--Enter a word or phrase above and then click "Find Signs" to see how it is signed.-->					</div><!-- END search_left_bottom --> 				</div><!-- END search_left --> 				<div id="search_right">					<div id="search_right_top">						<h2>Browse Signs by...</h2>						<ul>							<li><a href="https://www.signingsavvy.com/search">Browse by Letter</a></li>							<li><a href="https://www.signingsavvy.com/fingerspelling">Fingerspelling</a></li>							<li><a href="https://www.signingsavvy.com/numbers">Numbers</a></li>							<li><a href="https://www.signingsavvy.com/wordlist/colors">Colors</a></li>						</ul>						<ul>							<li><a href="https://www.signingsavvy.com/wordlist/family">Family</a></li>							<li><a href="https://www.signingsavvy.com/wordlist/animals">Animals</a></li>							<li><a href="https://www.signingsavvy.com/wordlist/holidays">Holidays</a></li>							<li><a href="https://www.signingsavvy.com/wordlist/babysigns">Baby Signs</a></li>												</ul>						<div class="clear"></div>					</div><!-- END search_right_top --> 					<div id="search_right_bottom">						<!-- MAIN NAVIGATION TABS --> 						<ul id="list_nav">							<li ><a href="https://www.signingsavvy.com/wordlist/savvy" class="hide" id="list-savvy">Signs</a></li>							<li ><a href="https://www.signingsavvy.com/wordlist/my" class="hide" id="list-my">Fingerspelling</a></li>							<li ><a href="https://www.signingsavvy.com/wordlist/shared" class="hide" id="list-shared">Numbers</a></li>						</ul>						<!--<a href="wordlist/shared"><img src="images/shared_btn.png" alt="Shared Lists" /></a>						<a href="wordlist/my"><img src="images/my_btn.png" alt="My Lists" /></a>						<a href="member"><img src="images/membership_btn.png" alt="Membership" /></a>-->					</div><!-- END search_right_bottom --> 				</div><!-- END search_right --> 				<div class="clear"></div>			</div><!-- END search_content --> 		</div><!-- END search_inner --> 	</div><!-- END search --> 		<script type="text/javascript">	  	document.getElementById("searchField").focus();		document.getElementById("searchField").select();	</script>		            
             <!-- Main, Index -->
             <div id="main" class="index">
             
@@ -18,7 +18,7 @@
 
 			<h2>YOU</h2>
 			<ul>
-			<li><a class="current" href="#">ASL<br>1</a></li><li><a href="sign/YOU/500/2" title="Show variation 2 of sign">finger<br>spell</a></li>			</ul>
+			<li><a class="current" href="javascript:;">ASL<br>1</a></li><li><a href="sign/YOU/500/2" title="Show variation 2 of sign">finger<br>spell</a></li>			</ul>
 			
 		</div> <!-- END signing_header -->
 	
@@ -125,26 +125,349 @@
 										</div>
 											
 								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
-										  <p><em>Available to full members. Login or <a href="member" title="This feature is available only to full members.">sign up now!</a></em></p>
+										  <p>Are you feeling better?</p>
 										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
-										  <p><em>Available to full members. Login or <a href="member" title="This feature is available only to full members.">sign up now!</a></em></p>
+										  <p><a href="sign/YOU/500/1">YOU</a> <a href="sign/FEELING/6271/1">FEELING</a> <a href="sign/BETTER/46/1">BETTER</a> <a href="sign/YOU/500/1">YOU.</a></p>
 									
 									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
 						
 										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
 												<div class="thumbnail-img">
 													<div class="overflow-hidden">
-														<a href="sentences/500/24020/1145">
+														<a href="sentences/500/24020/698">
 														<img class="img-responsive" src="images/btn-watchASLgloss3.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
 													</div>
-													<a class="btn-more hover-effect" href="sentences/500/24020/1145">Watch ASL Sentence +</a>
+													<a class="btn-more hover-effect" href="sentences/500/24020/698">Watch ASL Sentence +</a>
 												</div>
 										</div>
 											
 								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
-										  <p><em>Available to full members. Login or <a href="member" title="This feature is available only to full members.">sign up now!</a></em></p>
+										  <p>Where are you going for Thanksgiving dinner?</p>
 										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
-										  <p><em>Available to full members. Login or <a href="member" title="This feature is available only to full members.">sign up now!</a></em></p>
+										  <p><a href="sign/THANKSGIVING/2735/1">THANKSGIVING</a> <a href="sign/DINNER/1218/1">DINNER</a> <a href="sign/YOU/500/1">YOU</a> <a href="sign/GO/3539/1">GO</a> <a href="sign/WHERE/478/1">WHERE?</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/1153">
+														<img class="img-responsive" src="images/btn-watchASLgloss4.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/1153">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>Would you please toss the salad?</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/S/5838/1">S</a>-<a href="sign/A/5820/1">A</a>-<a href="sign/L/5831/1">L</a>-<a href="sign/A/5820/1">A</a>-<a href="sign/D/5823/1">D</a> <a href="sign/TOSS/5492/1">TOSS</a> <a href="sign/DON'T-MIND/113/1">DON'T-MIND</a> <a href="sign/YOU/500/1">YOU?</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/542">
+														<img class="img-responsive" src="images/btn-watchASLgloss5.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/542">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>You need to take a bath!</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/BATH/512/1">BATH</a> <a href="sign/NEED/385/1">NEED</a> <a href="sign/YOU/500/1">YOU!</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/566">
+														<img class="img-responsive" src="images/btn-watchASLgloss1.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/566">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>If it is snowing, you should drive slowly.</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/IF/3644/1">IF</a> <a href="sign/SNOW/2555/2">SNOW</a> <a href="sign/DRIVE/1242/1">DRIVE</a> <a href="sign/SLOW/689/1">SLOW</a> <a href="sign/YOU/500/1">YOU</a> <a href="sign/SHOULD/4498/1">SHOULD.</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/874">
+														<img class="img-responsive" src="images/btn-watchASLgloss2.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/874">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>Are you going to a party on New Year's Eve?</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/NEW YEARS E-V-E/8486/1">NEW YEARS E-V-E</a> <a href="sign/PARTY/739/1">PARTY</a> <a href="sign/YOU/500/1">YOU</a> <a href="sign/GO/3539/1">GO?</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/920">
+														<img class="img-responsive" src="images/btn-watchASLgloss3.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/920">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>If you want to clarify your goals, you need to form a vision first.</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/YOU/500/1">YOU</a> <a href="sign/WANT/465/1">WANT</a> <a href="sign/CLARIFY/6326/1">CLARIFY</a> <a href="sign/YOUR/501/1">YOUR</a> <a href="sign/GOALS/3543/1">GOALS</a> <a href="sign/HOW/202/2">HOW?</a> <a href="sign/FIRST/568/1">FIRST</a> <a href="sign/FORM/11927/1">FORM</a> <a href="sign/VISION/9354/1">VISION.</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/779">
+														<img class="img-responsive" src="images/btn-watchASLgloss4.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/779">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>It's raining outside so you should bring your umbrella.</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/OUTSIDE/310/1">OUTSIDE</a> <a href="sign/RAINING/347/1">RAINING</a> <a href="sign/UMBRELLA/5276/1">UMBRELLA</a> <a href="sign/BRING/9444/1">BRING</a> <a href="sign/YOU/500/1">YOU</a> <a href="sign/SHOULD/4498/1">SHOULD.</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/630">
+														<img class="img-responsive" src="images/btn-watchASLgloss5.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/630">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>To be successful, it helps to have good grammar.</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/YOU/500/1">YOU</a> <a href="sign/WANT/465/1">WANT</a> <a href="sign/SUCCESS/4626/1">SUCCESS</a> <a href="sign/IMPORTANT/3661/1">IMPORTANT</a> <a href="sign/HAVE/183/1">HAVE</a> <a href="sign/GOOD/169/1">GOOD</a> <a href="sign/GRAMMAR/1422/1">GRAMMAR.</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/1157">
+														<img class="img-responsive" src="images/btn-watchASLgloss1.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/1157">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>To be successful, it helps to have good grammar.</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/YOU/500/1">YOU</a> <a href="sign/WANT/465/1">WANT</a> <a href="sign/SUCCESS/4626/1">SUCCESS</a> <a href="sign/IMPORTANT/3661/1">IMPORTANT</a> <a href="sign/HAVE/183/1">HAVE</a> <a href="sign/GOOD/169/1">GOOD</a> <a href="sign/GRAMMAR/1422/2">GRAMMAR.</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/644">
+														<img class="img-responsive" src="images/btn-watchASLgloss2.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/644">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>Can you meet me for lunch?</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/LUNCH/1757/1">LUNCH</a> <a href="sign/MEET/8335/1">MEET</a> <a href="sign/ME/3864/1">ME</a> <a href="sign/CAN/524/1">CAN</a> <a href="sign/YOU/500/1">YOU?</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/1096">
+														<img class="img-responsive" src="images/btn-watchASLgloss3.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/1096">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>Where do you want to go for lunch?</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/LUNCH/1757/1">LUNCH</a> <a href="sign/YOU/500/1">YOU</a> <a href="sign/WANT/465/1">WANT</a> <a href="sign/GO/3539/1">GO</a> <a href="sign/WHERE/478/1">WHERE?</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/758">
+														<img class="img-responsive" src="images/btn-watchASLgloss4.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/758">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>It is your right to a free and appropriate education.</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/FREE/156/2">FREE</a> <a href="sign/APPROPRIATE/2312/1">APPROPRIATE</a> <a href="sign/EDUCATION/124/2">EDUCATION</a> <a href="sign/YOU/500/1">YOU</a> <a href="sign/HAVE/183/1">HAVE</a> <a href="sign/RIGHT/4379/1">RIGHT.</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/799">
+														<img class="img-responsive" src="images/btn-watchASLgloss5.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/799">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>You should wear a tie to the business meeting.</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/BUSINESS/3086/1">BUSINESS</a> <a href="sign/MEETING/3878/1">MEETING</a> <a href="sign/TIE/5556/1">TIE</a> <a href="sign/YOU/500/1">YOU</a> <a href="sign/SHOULD/4498/1">SHOULD</a> <a href="sign/WEAR/4982/2">WEAR.</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/480">
+														<img class="img-responsive" src="images/btn-watchASLgloss1.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/480">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>Did you see the movie about the life of Kitty O’Neil, a deaf stuntwoman and racer?</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/YOU/500/1">YOU</a> <a href="sign/FINISH/149/1">FINISH</a> <a href="sign/SEE/683/1">SEE</a> <a href="sign/MOVIE/278/1">MOVIE</a> <a href="sign/ABOUT/32/1">ABOUT</a> <a href="sign/DEAF/102/1">DEAF</a> <a href="sign/WOMAN/730/1">WOMAN</a> <a href="sign/HERSELF/1485/4">HERSELF</a> <a href="sign/FAMOUS/1318/1">FAMOUS</a> <a href="sign/S/5838/1">S</a>-<a href="sign/T/5839/1">T</a>-<a href="sign/U/5840/1">U</a>-<a href="sign/N/5833/1">N</a>-<a href="sign/T/5839/1">T</a> <a href="sign/WOMAN/730/1">WOMAN</a> <a href="sign/AND/888/1">AND</a> <a href="sign/CAR/526/1">CAR</a> <a href="sign/RACER/9365/1">RACER.</a> <a href="sign/HER/3600/1">HER</a> <a href="sign/NAME/281/1">NAME</a> <a href="sign/K/5830/1">K</a>-<a href="sign/I/5828/1">I</a>-<a href="sign/T/5839/1">T</a>-<a href="sign/T/5839/1">T</a>-<a href="sign/Y/5844/1">Y</a> <a href="sign/O/5834/1">O</a>-<a href="sign/N/5833/1">N</a>-<a href="sign/E/5824/1">E</a>-<a href="sign/I/5828/1">I</a>-<a href="sign/L/5831/1">L</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/704">
+														<img class="img-responsive" src="images/btn-watchASLgloss2.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/704">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>I want to ask you another question.</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/I/209/1">I</a> <a href="sign/HAVE/183/1">HAVE</a> <a href="sign/ANOTHER/2967/1">ANOTHER</a> <a href="sign/QUESTION/4247/1">QUESTION</a> <a href="sign/FOR/747/1">FOR</a> <a href="sign/YOU/500/1">YOU.</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/1177">
+														<img class="img-responsive" src="images/btn-watchASLgloss3.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/1177">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>Do you live in a house?</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/HOUSE/199/1">HOUSE</a> <a href="sign/YOU/500/1">YOU</a> <a href="sign/LIVE/245/1">LIVE?</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/599">
+														<img class="img-responsive" src="images/btn-watchASLgloss4.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/599">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>You have to take a boat to get to Mackinac Island.</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/M/5832/1">M</a>-<a href="sign/A/5820/1">A</a>-<a href="sign/C/5822/1">C</a>-<a href="sign/K/5830/1">K</a>-<a href="sign/I/5828/1">I</a>-<a href="sign/N/5833/1">N</a>-<a href="sign/A/5820/1">A</a>-<a href="sign/C/5822/1">C</a> <a href="sign/ISLAND/1600/1">ISLAND</a> GO-TO <a href="sign/HOW/202/1">HOW?</a> <a href="sign/BOAT/1028/1">BOAT</a> <a href="sign/MUST/3933/1">MUST</a> <a href="sign/YOU/500/1">YOU.</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/732">
+														<img class="img-responsive" src="images/btn-watchASLgloss5.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/732">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>You need to go hunt for your running shoes.</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/YOUR/501/1">YOUR</a> <a href="sign/RUNNING/4403/1">RUNNING</a> <a href="sign/SHOES/383/1">SHOES</a> <a href="sign/LOOK-FOR/6311/1">LOOK-FOR</a> (hunt) <a href="sign/NEED/385/1">NEED</a> <a href="sign/YOU/500/1">YOU.</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/551">
+														<img class="img-responsive" src="images/btn-watchASLgloss1.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/551">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>I want to cook a dinner for you.</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/COOK/536/1">COOK</a> <a href="sign/DINNER/1218/1">DINNER</a> <a href="sign/FOR/747/1">FOR</a> <a href="sign/YOU/500/1">YOU</a> <a href="sign/I/209/1">I</a> <a href="sign/WANT/465/1">WANT.</a></p>
+									
+									</div><!--End Tag Box v2--><div class="tag-box tag-box-v2 margin-bottom-40">
+						
+										<div class="thumbnails thumbnail-style thumbnail-kenburn" style="width: 200px; float: left; margin-right: 5px;">
+												<div class="thumbnail-img">
+													<div class="overflow-hidden">
+														<a href="sentences/500/24020/828">
+														<img class="img-responsive" src="images/btn-watchASLgloss2.jpg" alt="Watch ASL Sentence" height="140" width="180" /></a>
+													</div>
+													<a class="btn-more hover-effect" href="sentences/500/24020/828">Watch ASL Sentence +</a>
+												</div>
+										</div>
+											
+								  		<h5 style="color: #74be39; text-transform: uppercase;">English Sentence</h5>
+										  <p>It is important that you vote for the new U.S. President.</p>
+										  <h5 style="color: #74be39; text-transform: uppercase;">ASL Gloss</h5>
+										  <p><a href="sign/NEW/286/1">NEW</a> <a href="sign/U-S/11873/1">U-S</a> <a href="sign/PRESIDENT/2187/1">PRESIDENT</a> <a href="sign/IMPORTANT/3661/1">IMPORTANT</a> <a href="sign/YOU/500/1">YOU</a> <a href="sign/VOTE/7013/1">VOTE.</a></p>
 									
 									</div><!--End Tag Box v2--></div><!--End desc-->
 										</div><!--End service-->
@@ -218,7 +541,7 @@
             </div>
             
             <!-- Footer -->
-            		<div id="footer">		<div id="footer_inner">			<div id="footer_logo">				<a href="https://www.signingsavvy.com/"><img src="https://www.signingsavvy.com/images/footer_logo.gif" alt="sslogo"></a>			</div><!-- END footer_logo --> 			<div id="footer_copyright">					<div id="show_social">	<a type="application/rss+xml" href="https://www.signingsavvy.com/rss.xml" title="rss feed"><img src="https://www.signingsavvy.com/graphics/social-icons/rss-32x32.png" width="32" height="32" alt="rss feed" /></a>		<a href="l/www.facebook.com/pages/Signing-Savvy-Your-Sign-Language-Resource/73745154379" title="facebook page"><img src="https://www.signingsavvy.com/graphics/social-icons/facebook-32x32.png" width="32" height="32" alt="facebook page" /></a>		<a href="l/twitter.com/SigningSavvy" title="twitter page"><img src="https://www.signingsavvy.com/graphics/social-icons/twitter-32x32.png" width="32" height="32" alt="twitter page" /></a>	<a href="l/www.youtube.com/user/SigningSavvy" title="youtube channel"><img src="https://www.signingsavvy.com/graphics/social-icons/youtube-32x32.png" width="32" height="32" alt="youtube channel" /></a>		<a href="l/itunes.com/apps/signingsavvymemberapp" title="Mobile Member App available in App Store"><img src="https://www.signingsavvy.com/media/Download_App_Store.png" width="92" height="32" alt="Apple App Store" /></a>	<a href="l/play.google.com/store/apps/details?id=com.signingsavvy.mobile" title="Mobile Member App available in Google Play"><img src="https://www.signingsavvy.com/media/google-play-badge.png" width="96" height="32" alt="Google Play" /></a>		<a href="gift" title="Purchase a Signing Savvy Gift Membership"><img src="https://www.signingsavvy.com/images/givegift.gif" width="92" height="32" alt="Gift" /></a>		</div>	Copyright 2019 Signing Savvy, LLC.  All Rights Reserved			</div><!-- END footer_copyright -->			<div id="footer_nav">				<ul>					<li><a href="https://www.signingsavvy.com/">Home</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/search">Signs</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/fingerspelling">Fingerspelling</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/numbers">Numbers</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/sentences">Sentences</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/wordlists">Lists</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/lessons">Lessons</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/asloneonone">Tutoring</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/blog">Blog</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/features">Features</a>&nbsp;|&nbsp;</li>									<li><a href="https://www.signingsavvy.com/about">About Us</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/faq">FAQ</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/requirements">System Requirements</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/mobile">Mobile Apps</a>&nbsp;|&nbsp;</li>										<li><a href="https://www.signingsavvy.com/termsofservice">Terms of Service</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/privacypolicy">Privacy Policy</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/contact">Contact Us</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/link">Link to Us</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/recommendation">Recommend Us</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/member">Membership</a></li>									</ul>			</div>								</div><!-- END footer_inner --> 	</div><!-- END footer --> 	<script async defer src="//assets.pinterest.com/js/pinit.js"></script>	        </div> <!-- END frame -->     
+            		<div id="footer">		<div id="footer_inner">			<div id="footer_logo">				<a href="https://www.signingsavvy.com/"><img src="https://www.signingsavvy.com/images/footer_logo.gif" alt="sslogo"></a>			</div><!-- END footer_logo --> 			<div id="footer_copyright">					<div id="show_social">	<a type="application/rss+xml" href="https://www.signingsavvy.com/rss.xml" title="rss feed"><img src="https://www.signingsavvy.com/graphics/social-icons/rss-32x32.png" width="32" height="32" alt="rss feed" /></a>		<a href="l/www.facebook.com/pages/Signing-Savvy-Your-Sign-Language-Resource/73745154379" title="facebook page"><img src="https://www.signingsavvy.com/graphics/social-icons/facebook-32x32.png" width="32" height="32" alt="facebook page" /></a>		<a href="l/twitter.com/SigningSavvy" title="twitter page"><img src="https://www.signingsavvy.com/graphics/social-icons/twitter-32x32.png" width="32" height="32" alt="twitter page" /></a>	<a href="l/www.youtube.com/user/SigningSavvy" title="youtube channel"><img src="https://www.signingsavvy.com/graphics/social-icons/youtube-32x32.png" width="32" height="32" alt="youtube channel" /></a>		<a href="l/itunes.com/apps/signingsavvymemberapp" title="Mobile Member App available in App Store"><img src="https://www.signingsavvy.com/media/Download_App_Store.png" width="92" height="32" alt="Apple App Store" /></a>	<a href="l/play.google.com/store/apps/details?id=com.signingsavvy.mobile" title="Mobile Member App available in Google Play"><img src="https://www.signingsavvy.com/media/google-play-badge.png" width="96" height="32" alt="Google Play" /></a>		<a href="gift" title="Purchase a Signing Savvy Gift Membership"><img src="https://www.signingsavvy.com/images/givegift.gif" width="92" height="32" alt="Gift" /></a>		</div>	Copyright 2020 Signing Savvy, LLC.  All Rights Reserved			</div><!-- END footer_copyright -->			<div id="footer_nav">				<ul>					<li><a href="https://www.signingsavvy.com/">Home</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/search">Signs</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/fingerspelling">Fingerspelling</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/numbers">Numbers</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/sentences">Sentences</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/wordlists">Lists</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/lessons">Lessons</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/asloneonone">Tutoring</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/articles">Articles</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/features">Features</a>&nbsp;|&nbsp;</li>									<li><a href="https://www.signingsavvy.com/about">About Us</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/faq">FAQ</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/requirements">System Requirements</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/mobile">Mobile Apps</a>&nbsp;|&nbsp;</li>										<li><a href="https://www.signingsavvy.com/termsofservice">Terms of Service</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/privacypolicy">Privacy Policy</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/contact">Contact Us</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/link">Link to Us</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/recommendation">Recommend Us</a>&nbsp;|&nbsp;</li>					<li><a href="https://www.signingsavvy.com/member">Membership</a></li>									</ul>			</div>								</div><!-- END footer_inner --> 	</div><!-- END footer --> 	<script async defer src="//assets.pinterest.com/js/pinit.js"></script>	        </div> <!-- END frame -->     
 
     </body>
 </html>
